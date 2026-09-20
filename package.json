@@ -1,6 +1,6 @@
 {
     "name": "menu-otp",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "private": true,
     "description": "Website and release tooling for Menu OTP. The app itself is Swift; see app/Package.swift.",
     "_repository": "Where CHANGELOG.md's links point. Set explicitly so they name the real repository even when a clone is pushed somewhere else to try the pipeline out; without it the changelog follows whatever `origin` happens to be.",

@@ -1,4 +1,4 @@
 {
     "_comment": "Generated. The app's version, for the site to show. Set it with .scripts/version.mjs, never by hand; releases bump it. Skrapa compiles pages with --rootDir at web/, so a page can only import a file from inside web/, which is why this isn't read straight from the repository root's package.json.",
-    "version": "0.1.0"
+    "version": "0.1.1"
 }
