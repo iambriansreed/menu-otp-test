@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:menu-otp}/app",
+            "name": "Debug MenuOTP (app)",
+            "target": "MenuOTP",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug MenuOTP (app)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:menu-otp}/app",
+            "name": "Release MenuOTP (app)",
+            "target": "MenuOTP",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release MenuOTP (app)"
+        }
+    ]
+}

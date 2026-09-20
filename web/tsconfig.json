@@ -4,7 +4,8 @@
         "base": "/",
         "output": "dist",
         "assets": "assets",
-        "projectRoot": "."
+        "projectRoot": ".",
+        "origin": "https://menu-otp.localhost/"
     },
     "compilerOptions": {
         "composite": true,

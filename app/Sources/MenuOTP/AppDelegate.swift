@@ -134,6 +134,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         guard let button = item.button else { return item }
         if let image = NSImage(named: "StatusIcon") {
             image.size = NSSize(width: 16, height: 16)
+            // A template image is drawn from its alpha alone, so macOS tints it to match
+            // the menu bar: dark on a light bar, light on a dark one, inverted while the
+            // item is highlighted. The artwork's own white would be invisible on a light bar.
+            image.isTemplate = true
             button.image = image
         } else {
             // Only when run outside the .app bundle (no Resources)

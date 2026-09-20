@@ -61,7 +61,8 @@ app/scripts/demo.sh --snapshot /tmp/snaps  # screenshots of the menu and Setting
                                          # run beside an interactive demo copy)
 app/scripts/bundle.sh [debug|release]    # "app/build/Menu OTP.app"; release = universal
 app/scripts/make-dmg.sh                  # "app/build/Menu OTP-<version>.dmg"
-app/scripts/make-icons.sh                # icons from app/Resources/icon.png
+app/scripts/make-icons.sh                # .icns from app/Resources/icon.png, status PNGs
+                                         # from app/Resources/glyph.png (see the script)
 
 npm install                              # once, at the root: Skrapa + the release tooling
 npm run dev                              # .scripts/dev.mjs: the demo app and the site's dev server
