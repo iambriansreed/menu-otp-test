@@ -1,0 +1,23 @@
+{
+    // These scripts are ES modules written in JavaScript and typed with JSDoc, not
+    // TypeScript, so nothing needs compiling before it runs. This config exists purely
+    // so the JSDoc is checked rather than decorative: `npm run typecheck` (and any
+    // editor) reads it, and it emits nothing.
+    //
+    // `nodenext` is what makes tsc read .mjs as ES modules and resolve bare specifiers
+    // the way Node does; it also avoids the `module: commonjs` / `moduleResolution: node`
+    // pair that TypeScript 6 deprecates.
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "noEmit": true,
+        "strict": true,
+        "target": "ES2024",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "types": ["node"],
+        "lib": ["ES2024"],
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["**/*.mjs"]
+}
